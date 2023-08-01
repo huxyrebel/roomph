@@ -110,7 +110,7 @@ background-color: #ff3d00;
 
 @media screen and (max-width: 768px) {
   img {
-    width: 100%;
+    width: auto;
     margin-left: 0;
   }
 }
