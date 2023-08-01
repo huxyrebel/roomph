@@ -1,0 +1,116 @@
+/* footer.css */
+
+.footer-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #575757;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.social-media-buttons {
+  display: flex;
+  gap: 10px; /* Add some space between the buttons */
+}
+
+.social-media-buttons,.btn-floating :hover{
+color: white;
+border: #ff3d00;
+border-color: #ff3d00;
+}
+
+.social-media-buttons .btn-floating {
+  opacity: 1!important;
+  width: 30px;
+  border-color: white;
+  height: 30px;
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%!important;
+  text-align: center!important;
+  background-color: #fff;
+color: #ff3d00;
+  background-color: var(--secondary-color);
+}
+.smb:hover{
+background-color: #ff3d00;
+}
+.links{
+  text-align: left;
+}
+.link {
+  color:white;
+  text-decoration: none;
+  text-align: left;
+}
+.link:hover{
+  color: #ff3d00
+}
+
+.social-media-buttons .btn-floating:hover {
+  background-color: #ff3d00;
+}
+
+.Property-button{
+  color:#ff3d00;
+  border-radius: 45px;
+}
+.Property-button:hover {
+  background-color: #ff3d00;
+  color:white;
+}
+
+.number a{
+  color: white;
+  text-decoration: none;
+}
+
+.number a:hover{
+  color: #ff3d00;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .social-media-buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .col-md-3,
+  .col-md-2,
+  .col-lg-3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .yy {
+    margin-top: 20px;
+  }
+
+  .number {
+    margin-top: 10px;
+  }
+
+  img {
+    width: 50%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .text-md-left {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 100%;
+    margin-left: 0;
+  }
+}

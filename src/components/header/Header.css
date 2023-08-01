@@ -1,0 +1,22 @@
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    align-items: center;
+    
+  }
+
+  .custom-button{background-color: #ff3d00 !important;
+    border-color: #ff3d00 !important;
+  border-radius: 45px;
+  }
+
+  .custom-button:hover{background-color: #fca527!important;
+  border-color: #fca527 !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    .header-button-container {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }

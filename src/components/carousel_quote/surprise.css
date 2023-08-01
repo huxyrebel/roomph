@@ -1,0 +1,27 @@
+.star-logo {
+    width: 100px;
+    height: 100px;
+    color: #ff3d00;
+  }
+  .vertical {
+    border-left: 6px solid blue;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+  }
+  .gurantee-container h5, p{
+    color: black;
+  }
+  .small-logo {
+    display: none !important;
+    
+  }
+
+  @media screen and (max-width: 768px){
+    .large-logo{
+      display: none;
+    }
+    .small-logo{
+      display: block !important;
+    }
+  }
