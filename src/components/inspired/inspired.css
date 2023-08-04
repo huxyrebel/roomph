@@ -134,3 +134,9 @@
   color: white;
   background-color: #ff3d00;
  }
+@media screen and (max-width: 768px){
+  .card-group{
+  align-items: center;
+  }
+
+}
